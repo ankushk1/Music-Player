@@ -1,0 +1,162 @@
+h1 {
+  font-style: italic;
+}
+
+body {
+  background-image: linear-gradient(to right, black, rgb(131, 128, 128));
+  align-items: stretch;
+  min-height: 100vh;
+}
+
+
+
+.navbar {
+
+  background-color: #555;
+  background-image: linear-gradient(to right, black, grey);
+  color: white;
+  font-size: xx-large;
+  font-style: italic;
+
+
+}
+
+
+.navbar a {
+  float: right;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+}
+
+.navbar img {
+  color:rgb(34, 98, 194);
+  
+}
+
+
+.navbar a:hover {
+  background-color: rgb(226, 61, 61);
+  text-decoration: none;
+}
+
+.active {
+  background-color: rgb(65, 90, 158);
+}
+
+.clear {
+  color: blue;
+}
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 8px;
+  border: none;
+  color: black;
+  font-size: 17px;
+}
+p {
+  font-size: xx-large;
+  padding-top: 2rem;
+
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: white;
+  padding-right: 1.5rem;
+}
+
+section {
+  float: left;
+  width: 80%;
+}
+
+div .pbody {
+  margin-right: 10rem;
+}
+
+div .artists {
+  margin: 2rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+
+}
+
+
+aside {
+
+  float: right;
+  background-color: rgb(7, 8, 77);
+  width: 19%;
+  height: auto;
+  padding: 1rem 1rem 1.5rem 1rem;
+  fill-opacity: unset;
+}
+
+.fa-play {
+  padding-left: 1rem;
+  padding-top: 3.3rem;
+  padding-bottom: 1rem;
+  margin-right: 3rem;
+  color: rgb(155, 77, 13);
+
+
+
+}
+
+aside p {
+  font-size: x-large;
+  color: rgb(231, 234, 235);
+  text-decoration: rgb(131, 128, 128);
+  text-shadow: rgb(131, 128, 128);
+  float: right;
+  margin-left: 1rem;
+  font-family: sans-serif;
+  margin-top: 1rem
+}
+
+.genre {
+  width: 280px;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  padding-left: 2rem;
+  height: 200px;
+}
+
+div.gallery {
+  width: 300px;
+  height: 200px;
+  padding-left: 3cm;
+  margin-right: 2cm;
+
+}
+
+
+div.desc {
+  font-size: larger;
+  margin: 1rem 1rem 1rem 1rem;
+  color: rgb(253, 247, 247);
+  text-align: center;
+}
+
+.responsive {
+
+  float: left;
+  width: 20%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+
+  
+    
